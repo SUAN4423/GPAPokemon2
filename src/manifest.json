@@ -7,8 +7,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://*/*",
-        "http://*/*"
+        "https://gradereport-ty.waseda.jp/*"
       ],
       "js": [
         "content.js"
