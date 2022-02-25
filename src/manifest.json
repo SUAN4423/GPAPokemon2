@@ -1,17 +1,15 @@
 {
-  "name": "GPAPokemon",
-  "version": "1.00",
-  "manifest_version": 2,
-  "description": "GPAポケモンを表示させます",
-  "permissions": ["http://*/*", "https://*/*"],
-  "content_scripts": [
-    {
-      "matches": [
-        "https://gradereport-ty.waseda.jp/*"
-      ],
-      "js": [
-        "content.js"
-      ]
-    }
-  ]
+    "name": "GPAPokemon",
+    "version": "1.00",
+    "manifest_version": 2,
+    "description": "GPAポケモンを表示させます",
+    "permissions": ["http://*/*", "https://*/*"],
+    "content_scripts": [{
+        "matches": [
+            "https://gradereport-ty.waseda.jp/*"
+        ],
+        "js": [
+            "content.js"
+        ]
+    }]
 }
